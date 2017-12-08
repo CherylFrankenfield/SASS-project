@@ -1,0 +1,10 @@
+@mixin clear-fix {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@mixin round-borders($some-number) {
+  -webkit-border-radius: $some-number;
+  -moz-border-radius: $some-number;
+  border-radius: $some-number;
+}

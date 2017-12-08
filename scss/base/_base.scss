@@ -1,0 +1,33 @@
+/* For testing only */
+
+:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  height: 99vh;
+  background-color: red;
+}
+h1 {
+  font-family: 'arconregular';
+}
