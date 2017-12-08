@@ -47,13 +47,6 @@ h4 {
   font-size: 16px; }
 
 /* For testing only */
-:not(body):not(html) {
-  box-sizing: border-box;
-  border: 1px dashed #000; }
-
-.columns {
-  min-height: 100px; }
-
 /* End for testing */
 html {
   box-sizing: border-box;
@@ -73,46 +66,35 @@ html {
   height: 99vh;
   background-color: #F4FAFF; }
 
-.footer {
+footer {
+  width: 100%;
   background-color: #2A364E;
-  height: 100%;
+  height: auto;
   color: #F4FAFF;
   padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%; }
-  .footer ul {
+  footer ul {
     list-style: none;
     width: 100%; }
-
-.footer-container {
-  width: 100%;
-  height: 100%; }
+  footer h4 {
+    padding-bottom: 2em; }
 
 .footer-right ul li {
-  display: inline-block; }
+  display: inline-block;
+  padding-right: 2em; }
 
 .footer-left, .footer-mid, .footer-right {
-  float: left;
   padding: 2em;
-  width: 12; }
+  width: 32%;
+  float: left;
+  background-color: #2A364E;
+  margin-top: 2em; }
 
-.footer-left:after {
+.footer-left:after, .footer-mid:after, .footer-right:after {
   content: " ";
   display: block;
   clear: both; }
-
-.footer-mid:after {
-  content: " ";
-  display: block;
-  clear: both; }
-
-.footer-right:after {
-  content: " ";
-  display: block;
-  clear: both; }
-
-.footer h4 {
-  padding-bottom: 1em; }
 
 .sidebar {
   background-color: #00A7B9;
@@ -322,15 +304,16 @@ a:hover div {
   height: 80vmin;
   max-height: 100%;
   padding: 3%;
-  background-color: gray;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px; }
+  background-color: #CDD6DD;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; }
   .modal .header-text {
     padding-bottom: 3px;
     height: 30px; }
     .modal .header-text h1 {
-      float: left; }
+      float: left;
+      font-size: 30px; }
     .modal .header-text img {
       float: right;
       width: 30px;
@@ -341,6 +324,8 @@ a:hover div {
     width: 100%; }
     .modal .modal-content img {
       width: 100%; }
+    .modal .modal-content p {
+      font-size: 20px; }
 
 #nav-span-one #nav-span-two {
   position: absolute;

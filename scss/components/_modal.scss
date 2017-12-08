@@ -4,6 +4,7 @@
     height: 30px;
     h1 {
       float: left;
+      font-size: $font-large;
     }
     img {
       float: right;
@@ -21,14 +22,17 @@
   height: 80vmin;
   max-height: 100%;
   padding: 3%;
-  background-color: gray;
-  @include round-borders(30px);
+  background-color: $modal-gray;
+  @include round-borders(20px);
   & .modal-content {
     max-height: 90%;
     overflow: auto;
     width: 100%;
      img {
       width: 100%;
+    }
+     p {
+    font-size: $font-medium;
     }
   }
 }

@@ -5,6 +5,8 @@ $footer-color: #2A364E;
 $main-color: #F4FAFF;
 $font-yellow: #E7E247;
 $font-pink: #FE4D55;
+$modal-gray: #CDD6DD;
+$modal-pink: #CDACA1;
 
 $colors: (
   'sidebar': $sidebar-color,
@@ -12,6 +14,8 @@ $colors: (
   'main': $main-color,
   'font-yellow': $font-yellow,
   'font-pink': $font-pink,
+  'modal-gray': $modal-gray,
+  'modal-pink': $modal-pink
 );
 
 $font-small: 16px;
