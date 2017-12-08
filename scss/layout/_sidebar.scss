@@ -1,7 +1,9 @@
+@import 'abstracts/variables';
+
 .sidebar {
   background-color: $sidebar-color;
   width: $grid-columns;
-  height: 50vh;
+  height: 70vh;
   float: left;
   color: $main-color;
 }
@@ -12,8 +14,14 @@
 
 .sidebar ul {
   list-style: none;
+  & li {
+    padding-left: 8%;
+  }
 }
 
 .sidebar img {
-  width: 100%;
+  width: 50%;
+  // position: relative;
+  // top: 0;
+  // left: 5em;
 }
