@@ -1,6 +1,35 @@
+.footer-container {
+  width: 100%;
+  margin: auto;
+}
 .footer {
   background-color: $footer-color;
   width: $grid-columns;
   height: 100%;
   color: $main-color;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.footer ul {
+  list-style: none;
+  width: 100%;
+}
+
+.footer-right ul li {
+  display: inline-block;
+  width: 24%;
+}
+
+.footer-left {
+  float:left;
+}
+
+.footer-left:after {
+  @include clear-fix;
+}
+
+.footer-right {
+  float: right;
 }
