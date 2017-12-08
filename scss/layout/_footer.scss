@@ -1,4 +1,6 @@
 .footer {
-  background-color: green;
+  background-color: $footer-color;
   width: $grid-columns;
+  height: 100%;
+  color: $main-color;
 }

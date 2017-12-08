@@ -1,9 +1,19 @@
 .sidebar {
-  background-color: yellow;
+  background-color: $sidebar-color;
   width: $grid-columns;
   height: 100vh;
+  float: left;
+  color: $main-color;
+}
+
+.sidebar:after {
+  @include clear-fix;
 }
 
 .sidebar ul {
   list-style: none;
+}
+
+.sidebar img {
+  width: 100%;
 }

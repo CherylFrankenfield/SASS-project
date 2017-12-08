@@ -1,4 +1,7 @@
+@import 'components/nav';
+
 .main {
-  background-color: blue;
+  background-color: $main-color;
   width: $grid-columns;
+  height: 100%;
 }

@@ -1,1 +1,25 @@
 $grid-columns: 12;
+
+$sidebar-color: #00A7B9;
+$footer-color: #2A364E;
+$main-color: #F4FAFF;
+$font-yellow: #E7E247;
+$font-pink: #FE4D55;
+
+$colors: (
+  'sidebar': $sidebar-color,
+  'footer': $footer-color,
+  'main': $main-color,
+  'font-yellow': $font-yellow,
+  'font-pink': $font-pink,
+);
+
+$font-small: 16px;
+$font-medium: 20px;
+$font-large: 30px;
+
+$fonts: (
+  'size': $font-small,
+  'medium': $font-medium,
+  'large': $font-large
+);
