@@ -47,6 +47,13 @@ h4 {
   font-size: 16px; }
 
 /* For testing only */
+:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px dashed #000; }
+
+.columns {
+  min-height: 100px; }
+
 /* End for testing */
 html {
   box-sizing: border-box;
@@ -66,10 +73,16 @@ html {
   height: 99vh;
   background-color: #F4FAFF; }
 
+.container:after, .row:after {
+  content: " ";
+  display: block;
+  clear: both; }
+
 footer {
   width: 100%;
+  margin: auto;
   background-color: #2A364E;
-  height: auto;
+  height: 30%;
   color: #F4FAFF;
   padding-top: 20px;
   padding-left: 10%;
@@ -79,6 +92,11 @@ footer {
     width: 100%; }
   footer h4 {
     padding-bottom: 2em; }
+
+footer:after, .row:after {
+  content: " ";
+  display: block;
+  clear: both; }
 
 .footer-right ul li {
   display: inline-block;
@@ -90,11 +108,6 @@ footer {
   float: left;
   background-color: #2A364E;
   margin-top: 2em; }
-
-.footer-left:after, .footer-mid:after, .footer-right:after {
-  content: " ";
-  display: block;
-  clear: both; }
 
 .sidebar {
   background-color: #00A7B9;
@@ -326,6 +339,21 @@ a:hover div {
       width: 100%; }
     .modal .modal-content p {
       font-size: 20px; }
+
+#modal-four, #modal-one {
+  text-align: center;
+  font-size: 30px;
+  background-color: #CDACA1;
+  color: #F4FAFF; }
+  #modal-four span, #modal-one span {
+    margin-right: 3em; }
+
+#submit-comments {
+  background-color: #E7E247;
+  border-radius: 6px;
+  color: #2A364E;
+  font-size: 16px;
+  padding: 2px; }
 
 #nav-span-one #nav-span-two {
   position: absolute;

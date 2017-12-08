@@ -36,3 +36,13 @@
     }
   }
 }
+
+#modal-four, #modal-one {
+  text-align: center;
+  font-size: $font-large;
+  background-color: $modal-pink;
+  color: $main-color;
+  & span {
+    margin-right: 3em;
+  }
+}
