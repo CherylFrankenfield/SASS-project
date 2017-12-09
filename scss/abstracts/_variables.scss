@@ -27,3 +27,7 @@ $fonts: (
   'medium': $font-medium,
   'large': $font-large
 );
+
+$breakpoint-desktop: 1225px;
+$breakpoint-tablet: 768px;
+$breakpoint-phone: 320px;

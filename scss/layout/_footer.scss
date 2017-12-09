@@ -35,3 +35,22 @@ footer:after, .row:after {
   background-color: $footer-color;
   margin-top: 2em;
 }
+
+//keep working on media queries to wrap up
+// @media screen (min-width: $breakpoint-desktop) {
+//   .footer-alt {
+//     display: none;
+//   }
+// }
+//
+// @media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+//   .footer-mid {
+//     display: none;
+//   }
+//   .footer-right {
+//     display: none;
+//   }
+// }
+// @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
+//
+// }
