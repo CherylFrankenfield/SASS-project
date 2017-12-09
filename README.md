@@ -11,11 +11,11 @@ _This website is a portfolio template using CSS and SASS elements with a focus o
 ## Setup/Installation Requirements
 
 * Navigate to your terminal.
-* Perform Git clone command on the repo [here.]()
+* Perform Git clone command on the repo [here.](https://github.com/CherylFrankenfield/SASS-project.git)
 * Perform Git atom . command to open all files in repo.
 * View index.html in browser.
 * No other setup or install necessary.
-* Or [click here]() to view in browser now.
+* Or [click here](https://cherylfrankenfield.github.io/sass-project/) to view in browser now.
 
 ## Specs
 
