@@ -342,11 +342,19 @@ a:hover div {
     margin-right: 3em; }
 
 #submit-comments {
-  background-color: #E7E247;
-  border-radius: 6px;
+  background-color: #F4FAFF;
+  border-radius: 2px;
+  border: 1px solid #2A364E;
   color: #2A364E;
   font-size: 16px;
-  padding: 2px; }
+  font-weight: bold;
+  padding: 4px 4px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left: 10px; }
+  #submit-comments:hover {
+    background-color: #E7E247;
+    color: #2A364E; }
 
 #nav-span-one #nav-span-two {
   position: absolute;
@@ -385,5 +393,20 @@ a:hover div {
 
 #nav-span-one:hover + .wrap a, .wrap:hover a {
   transform: scale(1); }
+
+#nice-form input[type=text], #nice-form textarea[type=text] {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #F4FAFF;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  resize: vertical;
+  margin-left: 10px;
+  border: 1px solid #2A364E; }
+#nice-form h3 {
+  margin-left: 10px; }
+
+#nice-form {
+  margin-left: 10px; }
 
 /*# sourceMappingURL=master.css.map */

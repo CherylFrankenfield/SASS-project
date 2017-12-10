@@ -2,14 +2,17 @@
 @import 'abstracts/variables';
 
 #nice-form {
-  & input[type=text] {
-    width: 100%;
+  & input[type=text], & textarea[type=text] {
+    width: 80%;
     padding: 8px;
     border: 1px solid $main-color;
     box-sizing: border-box;
-    margin-top: 2%;
     margin-bottom: 2%;
     resize: vertical;
+    margin-left: 10px;
+    border: 1px solid $footer-color;
+  }
+  & h3 {
     margin-left: 10px;
   }
 }

@@ -1,17 +1,26 @@
 // form button
 #submit-comments {
-  background-color: $font-yellow;
-  border-radius: 6px;
+  background-color: $main-color;
+  border-radius: 2px;
+  border: 1px solid $footer-color;
   color: $footer-color;
   font-size: $font-small;
-  padding: 2px;
-}
+  font-weight: bold;
+  padding: 4px 4px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left: 10px;
 
+  &:hover {
+    background-color: $font-yellow;
+    color: $footer-color;
+  }
+}
 
 // Nav line styles
 #nav-span-one #nav-span-two{
   position:absolute;
-  width:60%;height:3px;
+  width:60%; height:3px;
   background:#fff;
   left:20%; top:50%;
   border-radius:0;
