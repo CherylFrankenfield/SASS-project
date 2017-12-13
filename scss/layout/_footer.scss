@@ -36,21 +36,32 @@ footer:after, .row:after {
   margin-top: 2em;
 }
 
-//keep working on media queries to wrap up
-// @media screen (min-width: $breakpoint-desktop) {
-//   .footer-alt {
-//     display: none;
-//   }
+//media query using mixin loop
+// .footer-md {
+//   @include media(lg)
+//   display: none;
 // }
 //
-// @media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
-//   .footer-mid {
-//     display: none;
-//   }
-//   .footer-right {
-//     display: none;
-//   }
+// .footer-md {
+//   @include media(md)
+//   display: block;
 // }
-// @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
-//
-// }
+
+// media query
+@media screen (min-width: $breakpoint-desktop) {
+  .footer-md, .footer-sm {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+  .footer-mid {
+
+  }
+  .footer-right {
+    display: none;
+  }
+}
+@media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
+
+}

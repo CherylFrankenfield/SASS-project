@@ -28,6 +28,10 @@ $fonts: (
   'large': $font-large
 );
 
-$breakpoint-desktop: 1225px;
+// $breakpoint-lg: 'screen and (min-width: 1220px)';
+// $breakpoint-md: 'screen and (min-width: 768px)';
+// $breakpoint-sm: 'screen and (min-width: 1px)';
+
+$breakpoint-desktop: 1220px;
 $breakpoint-tablet: 768px;
 $breakpoint-phone: 320px;

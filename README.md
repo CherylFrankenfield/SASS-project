@@ -53,7 +53,7 @@ Today, I'll make use of our column structure more with a sidebar and how that im
 
 ## Known Bugs
 
-_Text_
+_Currently working on fixing media queries._
 
 ## Support and contact details
 
