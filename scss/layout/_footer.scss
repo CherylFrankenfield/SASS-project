@@ -36,32 +36,21 @@ footer:after, .row:after {
   margin-top: 2em;
 }
 
-//media query using mixin loop
-// .footer-md {
-//   @include media(lg)
-//   display: none;
+// media query
+// @media screen (min-width: $breakpoint-desktop) {
+//   .footer-md, .footer-sm {
+//     display: none;
+//   }
 // }
 //
-// .footer-md {
-//   @include media(md)
-//   display: block;
+// @media screen (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+//   .footer-mid {
+//
+//   }
+//   .footer-right {
+//     display: none;
+//   }
 // }
-
-// media query
-@media screen (min-width: $breakpoint-desktop) {
-  .footer-md, .footer-sm {
-    display: none;
-  }
-}
-
-@media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
-  .footer-mid {
-
-  }
-  .footer-right {
-    display: none;
-  }
-}
-@media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
-
-}
+// @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
+//
+// }
