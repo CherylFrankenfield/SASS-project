@@ -15,7 +15,6 @@ _This website is a portfolio template using CSS and SASS elements with a focus o
 * Perform Git atom . command to open all files in repo.
 * View index.html in browser.
 * No other setup or install necessary.
-* Or [click here](http://cherylfrankenfield.github.io/SASS-project/) to view in browser now.
 
 ## Specs
 
@@ -53,7 +52,7 @@ Today, I'll make use of our column structure more with a sidebar and how that im
 
 ## Known Bugs
 
-_Currently working on fixing media queries. On last edit this week, have sass error with folder structure._
+_Currently working on fixing media queries._
 
 ## Support and contact details
 
